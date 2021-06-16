@@ -1,6 +1,6 @@
 import { IsNotEmpty } from "class-validator";
 
-export class Todo {
+export class TodoDTO {
   @IsNotEmpty()
   title: string;
 
